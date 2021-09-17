@@ -14,7 +14,7 @@ weatherForm.addEventListener('submit',(e)=>{
     messageOne.textContent = 'Loading...'
     messageTwo.textContent = ''
 
-    fetch('https://weather-app-jco.herokuapp.com//weather?address='+ location).then((response)=>{
+    fetch('https://weather-app-jco.herokuapp.com/weather?address='+ location).then((response)=>{
     
         response.json().then((data)=>{
             if(data.error){
