@@ -116,13 +116,12 @@ app.get('*', (req, res)=>{
     })
 })
 
+/*
 app.listen(3000, ()=>{
     console.log('Server is up!!!.')
-})
+}) */
 
-/*
+
 app.listen(process.env.PORT, ()=>{
     console.log('Server is up!!!.')
 })
-
-*/
